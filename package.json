@@ -3,8 +3,9 @@
   "description": "Aplicação web de agendamento para corte de cabelo.",
   "author": "Vinicius Oliveira",
   "scripts": {
-    "server": "json-server --watch server.json --port 3333",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack serve",
+    "server": "json-server --watch server.json --port 3333"
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
